@@ -3,6 +3,7 @@ local servers = {
 	"pyright",
   "rust_analyzer",
 	"jsonls",
+  "clangd",
 }
 
 local settings = {
