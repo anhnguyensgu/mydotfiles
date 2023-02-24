@@ -10,7 +10,7 @@ telescope.setup {
 
     prompt_prefix = " ",
     selection_caret = " ",
-    path_display = { "smart" },
+    --[[ path_display = { "smart" }, ]]
 
     mappings = {
       i = {
@@ -78,6 +78,10 @@ telescope.setup {
     },
   },
   pickers = {
+		find_files = {
+			-- `hidden = true` will still show the inside of `.git/` as it's not `.gitignore`d.
+			find_command = { "rg", "--files", "--hidden", "--glob", "!**/.git/*" },
+		},
     -- Default configuration for builtin pickers goes here:
     -- picker_name = {
     --   picker_config_key = value,
