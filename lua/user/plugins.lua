@@ -114,6 +114,8 @@ return packer.startup(function(use)
 
   use {'j-hui/fidget.nvim', commit="688b4fec4517650e29c3e63cfbb6e498b3112ba1"}
 
+  use {'Mofiqul/dracula.nvim'}
+
   -- Code Runner
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
