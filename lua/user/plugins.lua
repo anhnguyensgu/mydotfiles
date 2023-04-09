@@ -115,10 +115,11 @@ return packer.startup(function(use)
   use {'j-hui/fidget.nvim', commit="688b4fec4517650e29c3e63cfbb6e498b3112ba1"}
 
   use {'Mofiqul/dracula.nvim'}
-
+  use { "ellisonleao/gruvbox.nvim" }
+  use "savq/melange-nvim"
+  use 'folke/tokyonight.nvim'
   use {
     "folke/trouble.nvim",
-    requires = "nvim-tree/nvim-web-devicons",
     config = function()
       require("trouble").setup {
         -- your configuration comes here
