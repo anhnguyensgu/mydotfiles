@@ -1,6 +1,0 @@
---[[ local status_ok, _ = pcall(require, "navigator") ]]
---[[ print(status_ok) ]]
---[[ if not status_ok then ]]
---[[   print("loadinggggggggggggggggg") ]]
---[[   return ]]
---[[ end ]]
