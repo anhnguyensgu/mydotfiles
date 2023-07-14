@@ -1,0 +1,25 @@
+ctrl + alt - j : yabai -m window --focus south
+ctrl + alt - k : yabai -m window --focus north
+ctrl + alt - h : yabai -m window --focus west
+ctrl + alt - l : yabai -m window --focus east
+
+# swap windows
+shift + alt - j : yabai -m window --swap south
+shift + alt - k : yabai -m window --swap north
+shift + alt - h : yabai -m window --swap west
+shift + alt - l : yabai -m window --swap east
+
+# move windows
+shift + cmd - h : yabai -m window --warp west
+shift + cmd - j : yabai -m window --warp south
+shift + cmd - k : yabai -m window --warp north
+shift + cmd - l : yabai -m window --warp east
+
+#move extend monitor
+shift + alt - a: yabai -m display --focus west
+shift + alt - s: yabai -m display --focus south
+shift + alt - w: yabai -m display --focus north
+shift + alt - d: yabai -m display --focus east
+
+ctrl + shift - a: yabai -m window --display west; yabai -m display --focus west; yabai -m window --focus west
+ctrl + shift - d: yabai -m window --display east; yabai -m display --focus east; yabai -m window --focus east
