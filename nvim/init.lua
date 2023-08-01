@@ -5,4 +5,5 @@ require('telescopes')
 require('colorschemes')
 require('lsp')
 require('treesitter')
-
+require('autopairs')
+require('comments')
