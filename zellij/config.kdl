@@ -1,0 +1,15 @@
+keybinds {
+  normal {
+    bind "Ctrl g" { SwitchToMode "move"; }
+    unbind "Alt k"
+    unbind "Alt j"
+    unbind "Alt h"
+    unbind "Alt l"
+    unbind "Ctrl o"
+    unbind "Ctrl i"
+    bind "Ctrl j" { MoveFocus "Down"; }
+    bind "Ctrl k" { MoveFocus "Up"; }
+    bind "Ctrl h" { MoveFocus "Left"; }
+    bind "Ctrl l" { MoveFocus "Right"; }
+  }
+}
