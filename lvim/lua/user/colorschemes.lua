@@ -1,1 +1,1 @@
-lvim.colorscheme = 'darkplus'
+lvim.colorscheme = 'gruvbox'
