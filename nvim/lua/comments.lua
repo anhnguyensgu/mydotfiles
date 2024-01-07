@@ -1,5 +1,5 @@
 require('Comment').setup({
-    toggler = {
-        line = '<leader>/'
-    }
+  toggler = {
+    line = '<leader>/'
+  }
 })
