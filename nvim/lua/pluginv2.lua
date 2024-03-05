@@ -54,7 +54,19 @@ require("lazy").setup({
   { 'ziglang/zig.vim' },
   { 'Mofiqul/dracula.nvim' },
   { 'simrat39/rust-tools.nvim' },
-  { 'fatih/vim-go' },
-  { 'akinsho/bufferline.nvim', tag = "*",                                          dependencies =
-  'nvim-tree/nvim-web-devicons' },
+ -- { 'fatih/vim-go' }, -
+  {'ray-x/go.nvim'},
+  { 'ray-x/guihua.lua' },
+  { 'akinsho/bufferline.nvim', dependencies = 'nvim-tree/nvim-web-devicons' },
+  {
+    "nvim-tree/nvim-tree.lua",
+    version = "*",
+    lazy = false,
+    dependencies = {
+      "nvim-tree/nvim-web-devicons",
+    },
+    config = function()
+      require("nvim-tree").setup {}
+    end,
+  }
 })

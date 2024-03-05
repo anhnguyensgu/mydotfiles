@@ -77,7 +77,7 @@ lsp.on_attach(function(client, bufnr)
   vim.keymap.set("n", "gr", function() vim.lsp.buf.references() end, opts)
   vim.keymap.set("n", "<leader>lr", function() vim.lsp.buf.rename() end, opts)
   vim.keymap.set('n', 'gI', vim.lsp.buf.implementation, bufopts)
-  --vim.keymap.set("i", "<C-h>", function() vim.lsp.buf.signature_help() end, opts)
+  vim.keymap.set("i", "<C-h>", function() vim.lsp.buf.signature_help() end, opts)
 end)
 
 lsp.setup()
@@ -101,3 +101,4 @@ require('rust-tools').setup {
 vim.diagnostic.config({
   virtual_text = true
 })
+require('go').setup()

@@ -17,3 +17,6 @@ vim.opt.cursorline = true     -- highlight cursor line underneath the cursor hor
 vim.opt.splitbelow = true     -- open new vertical split bottom
 vim.opt.splitright = true     -- open new horizontal splits right
 vim.opt.guicursor = "i:block"
+
+vim.g.loaded_netrw = 1
+vim.g.loaded_netrwPlugin = 1
