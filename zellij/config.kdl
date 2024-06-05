@@ -7,9 +7,11 @@ keybinds {
     unbind "Alt l"
     unbind "Ctrl o"
     unbind "Ctrl i"
-    bind "Ctrl j" { MoveFocus "Down"; }
-    bind "Ctrl k" { MoveFocus "Up"; }
-    bind "Ctrl h" { MoveFocus "Left"; }
-    bind "Ctrl l" { MoveFocus "Right"; }
+    unbind "Ctrl h"
+    unbind "Ctrl j"
+    unbind "Ctrl k"
+    unbind "Ctrl l"
+    bind "Ctrl n" { NewTab; SwitchToMode "Normal"; }
+    bind "Ctrl x" { CloseTab; SwitchToMode "Normal"; }
   }
 }
